@@ -1,0 +1,24 @@
+*{
+    padding: 10px;
+}
+.portfolio-heading {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(234, 234, 234);
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: 'BBH Sans Bartle';
+  src: url('fonts/BBHSansBartle-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.edu{
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.227);
+  border: 1.6px solid rgb(179, 177, 177); 
+  border-radius: 8px;"
+}
