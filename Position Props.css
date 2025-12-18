@@ -1,0 +1,30 @@
+div{
+    background-color: blue;
+     max-width: 700px; /* waxwidth is used for make it responsive. so in mobile view, scroll bar doesn't appear */
+    height: 400px; 
+    overflow: auto;/* adjusts the size of the div according to the paragraph or content */
+}
+.div2{
+    background-color: rgb(43, 177, 83);
+     max-width: 700px; /* waxwidth is used for make it responsive. so in mobile view, scroll bar doesn't appear */
+    min-height: 10px; 
+    
+}
+#section{
+    position: absolute;
+    top: -80px;
+    left: 500px;
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+
+}
+#section2{
+    position: relative;
+    top: 0;
+    left: 500px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(226, 43, 223);
+
+}

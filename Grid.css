@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+
+.item{
+    background: radial-gradient(red,rgb(0, 47, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}

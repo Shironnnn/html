@@ -1,0 +1,531 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.box1 img{
+    width: 100%;
+    background-color: #d0fbf9;
+}
+.box1{
+    position: relative;
+    background-image: url("Findyourflow/Header\ section.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 1;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+    width: 100%;
+    height: 76px;
+    gap: 0;
+    margin: 0px;
+    border-bottom: solid #575757 1px;
+    z-index: 1000;
+    
+}
+ul {
+    
+    padding-left: 0px;
+}
+
+.box1 h1{
+    position: relative;
+    top: 130px;
+    margin-left: 35px;
+    width: 700px;
+    height: 226px;
+    color: #ffffff;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 138px;
+    font-weight: SemiBold;
+    line-height: 97%;
+    letter-spac ing: -2%;
+    
+    
+}
+.box1 button{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: 399px;
+    margin-left: 35px;
+    width: 190px;
+    height: 53px;
+    padding-left: 26;
+    padding-right: 26;
+    padding-bottom: 18;
+    padding-top: 18;
+    background-color: #d0fbf9;
+    border: none;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box1 button a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 15px;
+    font-weight: Regular;
+    line-height: 90%;
+    letter-spacing: -6%;
+}
+.navbar h2{
+    position: relative;
+    color: aliceblue;
+    font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+       
+}
+.navbar li{
+    border-right: solid #575757 1px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.btnn:hover{
+    background-color: #1F41FF;
+}
+.nav-links .adress:hover{
+    color: #b3b3b3;
+}
+.navbar li a {
+  transition: color 0.2s ease-in-out;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin: 0;
+}
+.nav-links .btn:hover{
+    color: #1F41FF;
+}
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -2%;
+    
+}
+
+
+.promo-bar {
+  width: 100%;
+  color: white;
+  background-color: #1F41FF;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.Promo_bar_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 60px;
+    height: 17px;
+    overflow: hidden;
+    width: 100%;
+    padding: 26px 40px;
+    background-color: #1F41FF;
+    color: #FFFFFF;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    white-space: nowrap;
+    animation: scroll-left 40s linear infinite;
+    
+}
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.Promo_bar_content p{
+    gap: 40px;
+    height: 17px;
+    padding-right: 40px;
+    flex-shrink: 0;
+    /* white-space: nowrap;
+    animation: scroll-left 20s linear infinite; */
+}
+/* @keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+} */
+.divider{
+    border: none;
+    height: 1px;
+    background-color: #ababab;
+}
+
+
+
+.Vision-module{
+    display: flex;
+}
+.Vision-module img{
+    width: 740px;
+}
+.Vision-module h2{
+    position: absolute;
+    top: 894px;
+    margin-left: 35px;
+    width: 298px;
+    color: white;
+    letter-spacing: -2%;
+    font-size: 135px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+.Vision-module .content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.Vision-module .content-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+    height: 256px;
+    gap: 35px;
+    margin-left: 180px;
+    margin-right: auto;
+    
+
+}
+.Vision-module .content-block h3{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+.Vision-module .content-block p{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 17px;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
+.Vision-module .content-block .button-dark{
+    width: 110px;
+    height: 50px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    color: white;
+    text-decoration: none;
+    
+    background-color: #2200FF;
+}
+.Vision-module .content-block .button-dark p{
+    font-size: 13px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    letter-spacing: -6%;
+    line-height: 90%;
+    width: 100px;
+    height: 10px;
+}
+
+
+
+
+
+
+.Classes-module{
+    display:flex ;
+}
+.Classes-module img{
+    width: 740px;
+}
+.Classes-module h2{
+    position: absolute;
+    top: 1634px;
+    margin-left: 35px;
+    width: 298px;
+    color: white;
+    letter-spacing: -2%;
+    font-size: 135px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+.Classes-module .content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.Classes-module .content-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+    height: 256px;
+    gap: 35px;
+    margin-left: 180px;
+    margin-right: auto;
+    
+
+}
+.Classes-module .content-block h3{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+.Classes-module .content-block p{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 17px;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
+.Classes-module .content-block .button-dark{
+    width: 170px;
+    height: 50px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #2200FF;
+}
+.Classes-module .content-block .button-dark p{
+    font-size: 13px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    letter-spacing: -6%;
+    line-height: 90%;
+    width: 200px;
+    height: 10px;
+}
+
+
+
+
+
+.Founders-section{
+    display: flex;
+    align-items: center;
+}
+.Founders-section .Title-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 528px;
+    gap: 288px;
+    padding: 30px;
+
+}
+.Founders-section .Title-container h2{
+    position: relative;
+    width: 580px;
+    height: 41px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 110%;
+    letter-spacing: -2%;
+
+}
+.Founders-section .Title-container .Quote{
+    position: relative;
+    width: 400px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+
+}
+.Founders-section .Title-container .Quote .q{
+    position: relative;
+    width: 450px;
+    height: 66px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: -2%;
+}
+.Founders-section .Title-container .Quote .n{
+    position: relative;
+    width: 400px;
+    height: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    line-height: 120%;
+    letter-spacing: -2%;
+
+}
+.Founders-section .Images-container{
+    width: 940px;
+}
+.Founders-section .Images-container img{
+    width: 940px;
+    display: block;
+}
+.Founders-section .Images-container .Founder-info-container{
+    height: 93px;
+}
+.Founders-section .Images-container .Founder-card1 .Founder-info-container{
+    background-color: #D900FF;
+    position: relative;
+    gap: 5px;
+    padding: 20px;
+}
+.Founders-section .Images-container .Founder-card2 .Founder-info-container{
+    background-color: #1F41FF;
+    position: relative;
+    gap: 5px;
+    padding: 20px;
+}
+.Founders-section .Images-container .Founder-info-container .Founder-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 53px;
+    gap: 11px;
+    
+}
+.Founders-section .Images-container .Founder-info-container .Founder-info .name{
+    position: relative;
+    width: 600px;
+    height: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -2%;
+
+}
+.Founders-section .Images-container .Founder-info-container .Founder-info .role{
+    position: relative;
+    width: 600px;
+    height: 18px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -2%;
+
+}
+.Founders-section .Images-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+
+
+.Call-to-action-section{
+    position: relative;
+    width: 1280px fill;
+    height: 497px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 149px;
+    padding-top: 149px;
+     background-color: #1F41FF;
+
+}
+.Call-to-action-section .Call-to-action-content{
+    position: relative;
+    width: 960px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+   
+
+}
+.Call-to-action-section .Call-to-action-content p{
+    position: relative;
+    width: 960px;
+    height: 123px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 110%;
+    letter-spacing: -2%; 
+}
+.Call-to-action-section .Call-to-action-content .Button-light{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 58px;
+    padding: 18px 26px;
+    background-color: #D0FBF9;
+    text-decoration: none;
+}
+.Call-to-action-section .Call-to-action-content .Button-light p{
+    position: relative;
+    
+    width: 126px;
+    height: 10px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 13px;
+    line-height: 90%;
+    letter-spacing: -6%;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    height: 698px;
+    background-color: #D0FBF9;
+}
+.footer-section .footer-content{
+    position: relative;
+    display: flex;
+    height: 470px;
+    padding-bottom: 244px;
+}
+.footer-section .footer-content .logo{
+    position: relative;
+    
+}

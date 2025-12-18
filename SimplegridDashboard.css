@@ -1,0 +1,14 @@
+body{
+    background-color: #0f1424;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 12px;
+    
+}
+.kunjbox{
+    background-color: #1c1f4a;
+    width: 100px;
+    height: 100px;
+}

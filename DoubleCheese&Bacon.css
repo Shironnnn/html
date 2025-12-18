@@ -1,0 +1,204 @@
+
+ body{
+  font-family: "Kulim Park", sans-serif;
+ }
+ nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  padding: 17px 26px;
+}
+
+nav .DoubleCB p {
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+nav .items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .items .Menu {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+nav .Button-black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    height: 556px;
+    padding: 64px 124px;
+    gap: 130px;
+}
+.heading .Text{
+    display: flex;
+    flex-direction: column;
+    width: 531px;
+    height: 337px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+}
+.heading .Text .Headline{
+  display: flex;
+  flex-direction: column;
+  width: 531px;
+  height: 204px;
+  gap: 24px;
+}
+.heading .Text .Headline .h1{
+  width: 531px;
+  height: 122px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+.heading .Text .Headline .p1{
+  width: 531px;
+  height: 58px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+.heading .Text .Button{
+  display: flex;
+  width: 531px;
+  height: 45px;
+  gap: 20px;
+}
+.heading .Text .Button .Button-yellow{
+  width: 165px;
+  height: 45px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 0.84);
+  border-radius: 30px;
+  border: none;
+  background-color: #ffcf23;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.heading .Text .Button p{
+  width: 346px;
+  height: 38px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: black;
+}
+.heading img{
+  display: flex;
+  width: 531px;
+  height: 428px;
+  border-radius: 12px;
+  /* padding: 10px;
+  gap : 10px; */
+}
+
+
+
+.Frame2{
+  display: flex;
+  width: 1440;
+  height: 268;
+  gap: 30px;
+  opacity: 1;
+  padding-top: 64px;
+  padding-right: 150px;
+  padding-bottom: 64px;
+  padding-left: 150px;
+  background: #F3F3F3;
+
+}
+.Frame2 .Feature1, .Feature2, .Feature3 {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 140px;
+  gap: 16px;
+  opacity: 1;
+
+}
+.Frame2 .Feature1 .Title, .Feature2 .Title, .Feature3 .Title{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  hei ght: 28px;
+  gap: 16px;
+  opacity: 1;
+
+}
+.Frame2 .Title .Feature-one {
+  margin: 0;           
+  line-height: 1;      
+  display: flex;
+  align-items: center;  
+  width: 294;
+  height: 28;
+  opacity: 1;
+  font-weight: 700;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+
+}
+.Frame2 .All-base-UI-elements{
+  width: 360px;
+height: 72px;
+opacity: 1;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: black;
+
+}
+.Frame2 .Feature1 .Title .Eclipse3, .Frame2 .Feature2 .Title .Eclipse3,.Frame2 .Feature3 .Title .Eclipse3{
+  width: 19px;
+  height: 19px;
+  opacity: 1;
+  border-radius: 100%;
+  background: linear-gradient(144.52deg, #EEE9D7 -3.45%, #FFCF23 72.52%);
+
+}
+
+

@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+    background-color: rgb(218, 224, 255);
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 110, 241);
+    margin: 5px;
+    animation: move 1s ease-out infinite ;
+}
+ div:hover{
+    animation-play-state: paused;
+ }
+
+@keyframes move{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}

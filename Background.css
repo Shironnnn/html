@@ -1,0 +1,10 @@
+body{
+        background-color: rgb(204, 168, 255);
+        background-image: url(Temp/BlueVioletBg.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: 10px 10px;
+}
+.one{
+    background-color: blueviolet;
+}

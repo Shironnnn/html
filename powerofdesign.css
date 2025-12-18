@@ -1,0 +1,156 @@
+body{
+    background-color: #020524;
+    border: solid white 16px;
+    margin: 0;
+    width: 900px;
+    height:820px;
+    margin-left: 250px;
+
+}
+
+#body{
+    position: absolute;
+    width: 140px;
+    left: 270px
+
+}
+
+#section{
+    position: absolute;
+    top: px;
+    left: 430px;
+    width: 440px;
+    height: 300px;
+    background- color: blueviolet;
+
+}
+#image1{
+    height: 250px;
+    width: 200px;
+    border-radius: 0 0 100px 100px;
+}
+#image2{
+    height: 250px;
+    width: 200px;
+    border-radius: 0 0 100px 100px;
+    margin-left: 15px;
+}
+
+
+.sticker{
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);;
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    border-radius: 100px;
+    border: solid 1px white;
+}
+
+
+.petty{
+    padding-left: 40px;
+    margin-bottom: 37px;
+    margin-top: 60px;
+    background-c olor: aqua;
+    width: 400px;
+}
+.petty p{
+    color: rgb(219, 227, 255)
+}
+
+.Heading{
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.para{
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color: white;
+    border-width: 0px;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #020524;
+}
+#petty2{
+    position: absolute;
+    top: 330px;
+    left: 550px;
+    width: 320px;
+    color: aliceblue;
+    height: auto;
+    background-c lor: rgb(10, 58, 125);
+}
+
+#petty2 h2 {
+    margin-top: 19px;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#petty2 p {
+    margin-top: 0; /* optional, prevents extra gaps */
+    color: rgb(195, 209, 255);
+}
+
+
+hr{
+    margin-left: 0;
+    width: 61px;
+    height: auto;
+    border: solid white 3px;
+    border-radius: 1px;
+    color: white;
+    line-height: 2px;
+    margin-top: 0px;
+}
+
+.box1{
+    margin-left: 28px;
+    background- color: aquamarine;
+    width: 430px;
+}
+#image3{
+    width: 420px;
+    border-radius: 20px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.boxes{
+    display: flex;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 2px;
+    gap: 15px;
+    margin-left: 28px;
+    
+
+}
+img{
+    width: 250px;
+    height: 160px;
+    gap: 40px;
+    border-radius: 15px;
+}
+
+.container{
+    margin-bottom: 25px;
+}

@@ -1,0 +1,47 @@
+
+/* .box{
+    background-color: rgb(227, 227, 227);
+    color: rgb(0, 0, 0);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.box1{
+    background-color: rgb(207, 207, 207);
+    color: rgb(0, 0, 0);
+    padding-top:20px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    
+} */
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 2px;
+    gap: 50px;
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    line-height: 2px;
+    gap: 50px;
+    padding-top: 10px;
+
+}
+.box{
+    width: 300px;
+    padding-top: 10px;
+}

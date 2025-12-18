@@ -1,0 +1,46 @@
+/* .container{
+    display: flex; /*main content nu thanne kodukkanam*/
+    /* flex-direction: column; */
+    /* gap: 10px; For giving space */
+    /* justify-content: space-evenly; */
+    /* height: 200px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+.box{
+    background-color: brown;
+    padding: 20px;
+    color: aliceblue;
+} */ 
+body{
+    background-color: black;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 8px;
+    
+
+}
+.box{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border: 3px solid;
+    border-color: white;
+}
+h4{
+    color: aliceblue;
+}
+.box1{
+    text-align: right;
+}
